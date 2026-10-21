@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Configurações | Helpeople</title><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/configuracoes.css"></head>
+<body class="app-page"><header class="site-header">
+  <div class="header-top">
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-menu"><span></span><span></span><span></span></button>
+    <a class="header-logo" href="inicio.html" aria-label="Helpeople - início"><span class="brand-mark">♥</span></a>
+    <a class="site-title" href="inicio.html">Helpeople</a>
+    <div class="header-spacer"></div>
+  </div>
+  <div class="header-search"><label class="sr-only" for="site-search">Buscar conteúdos</label><span aria-hidden="true">⌕</span><input id="site-search" type="search" placeholder="Buscar estratégias, perguntas e temas..." autocomplete="off"></div>
+</header>
+<div class="menu-backdrop" hidden></div>
+<nav class="site-menu" id="site-menu" aria-label="Menu principal" aria-hidden="true">
+  <a href="conta.html"><span class="menu-icon">♙</span><span>Minha conta</span></a>
+  <a href="configuracoes.html"><span class="menu-icon">⚙</span><span>Configurações</span></a>
+  <a href="index.html" data-exit><span class="menu-icon">↪</span><span>Sair para a tela inicial</span></a>
+</nav>
+
+<main class="page-content settings-content"><div class="page-intro"><p class="eyebrow">PREFERÊNCIAS</p><h1>Configurações do site</h1><p class="muted">Ajuste esta página para uma leitura mais confortável.</p></div>
+<section class="preferences-card">
+  <article class="preference-row"><div><h2>Tamanho das letras</h2><p class="muted">Ajusta o texto desta página de configurações.</p></div><div class="button-group"><button class="button secondary" id="font-down" aria-label="Diminuir letras">A−</button><button class="button secondary" id="font-up" aria-label="Aumentar letras">A+</button></div></article>
+  <article class="preference-row"><div><h2>Controle por voz</h2><p class="muted">Demonstração visual da preferência. Não ativa reconhecimento de fala neste protótipo.</p></div><label class="switch"><input type="checkbox" id="voice-toggle"><span class="switch-track"></span><span class="sr-only">Ativar controle por voz</span></label></article>
+  <article class="preference-row"><div><h2>Modo preto e branco</h2><p class="muted">Aplica uma paleta monocromática somente nesta página.</p></div><label class="switch"><input type="checkbox" id="mono-toggle"><span class="switch-track"></span><span class="sr-only">Ativar modo preto e branco</span></label></article>
+</section>
+<div class="preview-panel"><p class="eyebrow">PRÉVIA</p><h2>Educação acessível começa com pequenas adaptações.</h2><p>Você pode ajustar as preferências acima e observar o resultado nesta página.</p><button class="button primary" type="button" id="reset-settings">Restaurar padrões</button></div>
+<p class="prototype-note">As opções são locais e não alteram as demais páginas do site.</p></main><script src="js/app.js"></script><script src="js/configuracoes.js"></script></body></html>
